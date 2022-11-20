@@ -23,7 +23,7 @@ export const MainPage = () => {
       </Box>
       <Box style={{ height: "700px" }}>
         <img
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "100%", height: "100%", objectFit: "contain" }}
           src="/shaun.jpg"
           alt="Doctor"
         />
